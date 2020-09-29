@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/nearMeNavItem"
+        android:title="Near Me"
+        android:icon="@drawable/ic_marker"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/eventsNavItem"
+        android:title="Events"
+        android:icon="@drawable/ic_calendar"
+        app:showAsAction="ifRoom"/>
+
+
+    <item
+        android:id="@+id/userNavItem"
+        android:title="User"
+        android:icon="@drawable/ic_user"
+        android:checked="true"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/moreNavItem"
+        android:icon="@drawable/ic_more"
+        android:title="More"
+        app:showAsAction="ifRoom" />
+
+</menu>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- UNSELECTED TAB STATE -->
+    <item android:state_selected="false" android:state_pressed="false">
+        <layer-list>
+            <!-- Bottom indicator color for the UNSELECTED tab state -->
+            <item android:right="-2dp">
+                <shape android:shape="rectangle">
+                    <stroke android:color="#F3F3F3" android:width="2dp"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <!-- SELECTED TAB STATE -->
+    <item android:state_selected="true">
+        <layer-list>
+            <item android:right="-2dp" android:left="-2dp"
+                android:drawable="@drawable/line_tab" android:top="43dp" >
+                <shape android:shape="rectangle">
+                    <stroke android:color="#F3F3F3" android:width="12dp"/>
+                </shape>
+            </item>
+            <item android:bottom="-2dp" android:right="-2dp" android:left="-2dp">
+                <shape android:shape="rectangle">
+                    <stroke android:color="#F3F3F3" android:width="2dp"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

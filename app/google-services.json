@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "638164211736",
+    "firebase_url": "https://shades-yosef.firebaseio.com",
+    "project_id": "shades-yosef",
+    "storage_bucket": "shades-yosef.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:638164211736:android:cb3c2117549ea5b55c8b6d",
+        "android_client_info": {
+          "package_name": "app.map.shades"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "638164211736-u165q76q7h5mnhtj7rckofcfugfahvkv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.map.shades",
+            "certificate_hash": "c54b8bd6d9ebf10ec9303a7acda979c3d93815c0"
+          }
+        },
+        {
+          "client_id": "638164211736-gsgplt1ei35nck270hbpuuchaoo99soa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoCAAvuVOhst7OIhhA-bIQKmjvO7uQ7ew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "638164211736-gsgplt1ei35nck270hbpuuchaoo99soa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
